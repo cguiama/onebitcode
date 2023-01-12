@@ -40,9 +40,11 @@ do {
       break;
 
     case "2":
-      let op = prompt("Você tem " imoveis.length + " cadastrados, qual você quer acessar as informações?")
+      let op = prompt("Você tem " imoveis.length + " cadastrados, o que deseja fazer?\n1- Mostrar lista.\n2- Selecionar imóvel.\n 3- Sair.");
       for (let i = 0; i < imoveis.length; i++) {
-        /*         alert(
+        /*   
+        adicionar menu com objetos
+        alert(
                   "Imóvel " + (i + 1) +
                   "\nProprietário: " + imoveis[i].proprietario +
                   "\nQuartos: " + imoveis[i].quartos +
